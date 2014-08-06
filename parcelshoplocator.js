@@ -1,3 +1,4 @@
+
 // Main Object 'DPD' used as namespace 
 var DPD = new function(){
 
@@ -186,7 +187,8 @@ var DPD = new function(){
 						// Create shop information bubble (depending on the information)
 						var shopInfo = 	'<div class="shopInfoContainer">';
 						shopInfo 	+= 	'	<h1>' + shop.company + '</h1>';
-						shopInfo 	+= 	'	<h2>' + shop.parcelShopId + '</h2>';						
+						// Uncomment the line below if you want the shop id to be displayed (only for internal use!!)
+						//shopInfo 	+= 	'	<h2>' + shop.parcelShopId + '</h2>';						
 						shopInfo 	+= 	'	<p>' + capitaliseFirstLetter(shop.street) + ' ' + shop.houseNo + ', ' + shop.zipCode + ' ' + capitaliseFirstLetter(shop.city) + '</p>';
 						
 						shopInfo	+= '	<div class="openingHours">';
@@ -212,7 +214,7 @@ var DPD = new function(){
 						}
 						shopInfo	+=	'	</div>';
 						shopInfo	+=	'	<div class="centerText">';
-						//shopInfo	+=	'		<input class="choiceButton" type="button" value="' + t(10) + '" onclick="javascript:' + objConfig.callback + '(' + shop.parcelShopId + ');">';
+						shopInfo	+=	'		<input class="choiceButton" type="button" value="' + t(10) + '" onclick="javascript:' + objConfig.callback + '(' + shop.parcelShopId + ');">';
 						shopInfo	+=	'	</div>';
 						shopInfo 	+= 	'</div>';
 						
