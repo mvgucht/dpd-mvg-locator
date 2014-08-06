@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?-- If a language isn't found linked to a country (eg: nl_BE), the locator will fall back to its core language (eg: nl) -->
 <dictionary>
 	<entry id="1">
 		<en>Search Box</en>
