@@ -87,6 +87,9 @@ Add a button or link to you page that will display the parcelShop locator by cal
 TODO
 ----
 DPD.locator
+
   Autoresponsive setting in config: Will sense if the user is on a mobile device and use full screen rendering.
+  
   Autohide setting in config:       Will cause the locator to hide when a shop is selected by the customer.
-  Result filer on country:          Without this a German (or other) shop can be selected via a lookup starting from Belgium.                                       This would result in wrong pricing. If not this has to be caught in the callback function.
+  
+  Result filter on country:          Without this a German (or other) shop can be selected via a lookup starting from Belgium.                                       This would result in wrong pricing. If not this has to be caught in the callback function.
