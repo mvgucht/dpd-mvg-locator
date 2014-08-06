@@ -3,7 +3,6 @@ dpd-mvg-locator
 
 DISCLAIMER
 ----------
-
 The software that is described in this document is meant as an example.
 DPD doesn’t provide any active support but is willing to think along and help where possible.
 Because of this DPD waves any responsibility.
@@ -11,13 +10,11 @@ It is up to the user to review en test this software prior to using it on a live
 
 REQUIREMENTS
 ------------
-	
 - Default php soap_client active on server.
 - Google maps api V3 active for your domain.
 
 FILE OVERVIEW
 -------------
-	
 - Dictionary.xml
     Simple xml document that provides the textitems used on the locator. Adding a language is as sim-ple
     as translating each node in this file.
@@ -33,7 +30,6 @@ FILE OVERVIEW
 
 MINIMAL INTEGRATION
 -------------------
-
 For examples of the process described below please view Index.php
 
 Add google maps api script to the header:
