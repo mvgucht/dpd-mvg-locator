@@ -22,7 +22,7 @@ session_start();
 
 $serverIP = $_SERVER['SERVER_ADDR'];
 $clientIP = $_SERVER['REMOTE_ADDR'];
-$sugar = "b7amcxHT7ECBxyhkgV5uMj7byWqsgU";
+$sugar = "yoursugar";
 $referer = $_SERVER['HTTP_REFERER'];
 
 $sessionID = md5(md5($serverIP.'.'.$clientIP).$sugar.md5($referer));
