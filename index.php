@@ -1,5 +1,16 @@
 <?php
-	// This phpcode will only by visible once this file/repository has been made private.
+	session_name("DPDLocator");
+	
+	$serverIP = $_SERVER['SERVER_ADDR'];
+	$clientIP = $_SERVER['REMOTE_ADDR'];
+	$sugar = "yoursugar";
+	$pagePath = "http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF'];
+	
+	$sessionID = md5(md5($serverIP.'.'.$clientIP).$sugar.md5($pagePath));
+	
+	if(session_start()){
+		$_SESSION['identifier'] = $sessionID;
+	}
 ?>
 <!DOCTYPE html>
 <html>
