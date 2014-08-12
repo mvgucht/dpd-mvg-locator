@@ -79,6 +79,7 @@
 				//width: '800px',
 				//height: '600px',
 				filter: 'pick-up',
+				country: 'BE',
 				callback: 'dpdChosenShop',
 				language: '<?php echo (isset($_GET['lang']) ? $_GET['lang'] : 'en'); ?>'
 			});

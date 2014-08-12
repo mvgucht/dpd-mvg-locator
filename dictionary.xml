@@ -89,4 +89,9 @@
 		<fr>Fermé</fr>
 		<fr_FR>Fermé</fr_FR>
 	</entry>
+	<entry id="12">
+		<en>The ParcelShops in this region are filtered out &#60;br&#62;due to your country selection</en>
+		<nl>De ParcelShops in dit gebied zijn niet selecteerbaar &#60;br&#62; door uw gekozen land van bestemming.</nl>
+		<fr>Les Shops dans ...</fr>
+	</entry>
 </dictionary>

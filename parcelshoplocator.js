@@ -152,6 +152,7 @@ var DPD = new function(){
 				var filter;
 				if (typeof objConfig.filter == 'undefined') filter = "false";
 				
+				// Could do this via POST
 				xmlhttp.open("GET", "parcelshopfinder.php?findParcelShops=" + filter + "&long=" + selectedLocation.lng() + "&lat=" + selectedLocation.lat(), false);
 				xmlhttp.send();
 				
@@ -164,6 +165,8 @@ var DPD = new function(){
 				
 					// Add the shops to the current shop object for later reference.
 					for (var i = 0, shop; shop = objResult.parcelShop[i]; i++) {
+						var shopActive = (typeof objConfig.country == 'undefined') || shop.isoAlpha2 == objConfig.country;
+						
 						DPDShops[shop.parcelShopId] = { 
 							name 	: shop.company,
 							street 	: capitaliseFirstLetter(shop.street),
@@ -172,9 +175,17 @@ var DPD = new function(){
 							city	: capitaliseFirstLetter(shop.city)
 						};
 						
+						var imageurl;
+						
+						if(shopActive){
+							imageurl = "images/icon_parcelshop.png";
+						} else {
+							imageurl = "images/icon_parcelshop_na.png";
+						}	
+						
 						// Create marker logo
 						var DPDimage = {
-							url: "http://www.dpd.com/extension/dpd_google_maps/design/standard/images/icon_parcelshop.png",
+							url: imageurl,
 							size: new google.maps.Size(100, 100),
 							origin: new google.maps.Point(0, 0),
 							anchor: new google.maps.Point(17, 34),
@@ -214,7 +225,11 @@ var DPD = new function(){
 						}
 						shopInfo	+=	'	</div>';
 						shopInfo	+=	'	<div class="centerText">';
-						shopInfo	+=	'		<input class="choiceButton" type="button" value="' + t(10) + '" onclick="javascript:' + objConfig.callback + '(' + shop.parcelShopId + ');">';
+						if(shopActive){
+							shopInfo	+=	'		<input class="choiceButton" type="button" value="' + t(10) + '" onclick="javascript:' + objConfig.callback + '(' + shop.parcelShopId + ');">';
+						} else {
+							shopInfo 	+= 	'<p>' + t(12) + '</p>';
+						}
 						shopInfo	+=	'	</div>';
 						shopInfo 	+= 	'</div>';
 						
