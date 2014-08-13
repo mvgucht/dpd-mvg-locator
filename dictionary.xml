@@ -12,7 +12,7 @@
 	<entry id="2">
 		<en>Opening Times</en>
 		<nl>Openingsuren</nl>
-		<nl_NL>Openingsuren</nl_NL>
+		<nl_NL>Openingstijden</nl_NL>
 		<nl_BE>Openingsuren</nl_BE>
 		<fr>Heures d'Ouverture</fr>
 		<de>Öffnungszeiten</de>
@@ -91,7 +91,8 @@
 	</entry>
 	<entry id="12">
 		<en>The ParcelShops in this country are shown as inactive &#60;br&#62; because of your country selection.</en>
-		<nl>De ParcelShops in dit gebied zijn niet selecteerbaar &#60;br&#62; door uw gekozen land van bestemming.</nl>
+		<nl_NL>De DPD ParcelShops in deze regio zijn niet te selecteren &#60;br&#62; vanwege uw landselectie</nl_NL>
+		<nl_BE>De ParcelShops in dit gebied zijn niet selecteerbaar &#60;br&#62; vanwege uw landselectie.</nl_BE>
 		<fr>Les ParcelShops dans ce pays sont présentés comme inactif &#60;br&#62; en raison de votre sélection de pays.</fr>
 		<de>Die ParcelShops in diesem Land werden als inaktiv &#60;br&#62; angezeigt auf Grund ihrer Landesauswahl.</de>
 	</entry>
