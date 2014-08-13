@@ -2,20 +2,20 @@
 <!-- If a language isn't found linked to a country (eg: nl_BE), the locator will fall back to its core language (eg: nl) -->
 <dictionary>
 	<entry id="1">
-		<en>Search Box</en>
+		<en>Search</en>
 		<nl>Zoeken</nl>
 		<nl_NL>Zoeken</nl_NL>
 		<nl_BE>Zoeken</nl_BE>
 		<fr>Recherche</fr>
-		<fr_FR>Recherche</fr_FR>
+		<de>Suchen</de>
 	</entry>
 	<entry id="2">
-		<en>Opening Hours</en>
+		<en>Opening Times</en>
 		<nl>Openingsuren</nl>
 		<nl_NL>Openingsuren</nl_NL>
 		<nl_BE>Openingsuren</nl_BE>
 		<fr>Heures d'Ouverture</fr>
-		<fr_FR>Heures d'Ouverture</fr_FR>
+		<de>Öffnungszeiten</de>
 	</entry>
 	<entry id="3">
 		<en>Monday</en>
@@ -23,7 +23,7 @@
 		<nl_NL>Maandag</nl_NL>
 		<nl_BE>Maandag</nl_BE>
 		<fr>Lundi</fr>
-		<fr_FR>Lundi</fr_FR>
+		<de>Montag</de>
 	</entry>
 	<entry id="4">
 		<en>Tuesday</en>
@@ -31,7 +31,7 @@
 		<nl_NL>Dinsdag</nl_NL>
 		<nl_BE>Dinsdag</nl_BE>
 		<fr>Mardi</fr>
-		<fr_FR>Mardi</fr_FR>
+		<de>Dienstag</de>
 	</entry>
 	<entry id="5">
 		<en>Wednesday</en>
@@ -39,7 +39,7 @@
 		<nl_NL>Woensdag</nl_NL>
 		<nl_BE>Woensdag</nl_BE>
 		<fr>Mercredi</fr>
-		<fr_FR>Mercredi</fr_FR>
+		<de>Mittwoch</de>
 	</entry>
 	<entry id="6">
 		<en>Thursday</en>
@@ -47,7 +47,7 @@
 		<nl_NL>Donderdag</nl_NL>
 		<nl_BE>Donderdag</nl_BE>
 		<fr>Jeudi</fr>
-		<fr_FR>Jeudi</fr_FR>
+		<de>Donnerstag</de>
 	</entry>
 	<entry id="7">
 		<en>Friday</en>
@@ -55,7 +55,7 @@
 		<nl_NL>Vrijdag</nl_NL>
 		<nl_BE>Vrijdag</nl_BE>
 		<fr>Vendredi</fr>
-		<fr_FR>Vendredi</fr_FR>
+		<de>Freitag</de>
 	</entry>
 	<entry id="8">
 		<en>Saturday</en>
@@ -63,7 +63,7 @@
 		<nl_NL>Zaterdag</nl_NL>
 		<nl_BE>Zaterdag</nl_BE>
 		<fr>Samedi</fr>
-		<fr_FR>Samedi</fr_FR>
+		<de>Samtag</de>
 	</entry>
 	<entry id="9">
 		<en>Sunday</en>
@@ -71,7 +71,7 @@
 		<nl_NL>Zondag</nl_NL>
 		<nl_BE>Zondag</nl_BE>
 		<fr>Dimanche</fr>
-		<fr_FR>Dimanche</fr_FR>
+		<de>Sonntag</de>
 	</entry>
 	<entry id="10">
 		<en>Deliver my parcel here</en>
@@ -79,7 +79,7 @@
 		<nl_NL>Bezorg mijn pakket hier</nl_NL>
 		<nl_BE>Lever mijn pakket hier</nl_BE>
 		<fr>Livrer mon colis ici</fr>
-		<fr_FR>Livrer mon colis ici</fr_FR>
+		<de>Mein Paket hier zustellen</de>
 	</entry>
 	<entry id="11">
 		<en>Close</en>
@@ -87,11 +87,12 @@
 		<nl_NL>Sluit</nl_NL>
 		<nl_BE>Sluit</nl_BE>
 		<fr>Fermé</fr>
-		<fr_FR>Fermé</fr_FR>
+		<de>Schließen</de>
 	</entry>
 	<entry id="12">
-		<en>The ParcelShops in this region are filtered out &#60;br&#62;due to your country selection</en>
+		<en>The ParcelShops in this country are shown as inactive &#60;br&#62; because of your country selection.</en>
 		<nl>De ParcelShops in dit gebied zijn niet selecteerbaar &#60;br&#62; door uw gekozen land van bestemming.</nl>
-		<fr>Les Shops dans ...</fr>
+		<fr>Les ParcelShops dans ce pays sont présentés comme inactif &#60;br&#62; en raison de votre sélection de pays.</fr>
+		<de>Die ParcelShops in diesem Land werden als inaktiv &#60;br&#62; angezeigt auf Grund ihrer Landesauswahl.</de>
 	</entry>
 </dictionary>
